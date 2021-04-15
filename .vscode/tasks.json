@@ -8,7 +8,7 @@
     {
       "label": "Tweego - Build once",
       "type": "shell",
-      "command": "tweego -o dist/index.html script style twee",
+      "command": "tweego -o dist/index.html script style twee vendor",
       "problemMatcher": [],
       "group": {
         "kind": "build",

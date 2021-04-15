@@ -1,0 +1,7 @@
+sugarcube-2:
+  macros:
+    treebranch:
+      name: treebranch
+      container: true
+    leaf:
+      name: leaf

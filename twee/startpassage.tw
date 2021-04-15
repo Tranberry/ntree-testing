@@ -1,1 +1,35 @@
 :: NameOfStartingPassage
+
+  <<treebranch "dragin" "redsea" >>
+<<leaf {
+	speaker: "dragin",
+	spriteL: setup.sprites.Dragin
+}>>
+	Aaa! We're in a game!
+<<leaf>>
+	Isn't that exciting, redsea?
+<<leaf {
+	spriteR: setup.sprites.Sphinx,
+	speaker: NTree.clear,
+	focus: NTree.clear
+}>>
+	<em>The one in question just blinks.</em>
+<<leaf {
+	speaker: "redsea",
+	focus: "spriteR"
+}>>
+	I guess…
+<<leaf>>
+	What's the excitement for, though? I like them apples!
+<<leaf {
+	speaker: "dragin",
+	focus: "spriteL"
+}>>
+	Apples are not a fruit ;-;
+<<leaf {
+	speaker: NTree.clear,
+	focus: NTree.clear
+}>>
+	…
+	<<set $dest to "Post">>
+ <</treebranch>>
