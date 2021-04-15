@@ -1,0 +1,19 @@
+<!-- tweego -w -o index.html Media Main Days -->
+<!-- TODO: check format and format-version! -->
+:: StoryData 
+{
+  "start": "NameOfStartingPassage",
+  "ifid": "4913375F-9244-402A-B790-3CC03B56F482",
+  "zoom": 1,
+  "format": "SugarCube",
+  "format-version": "2.34.1"
+}
+
+:: StoryTitle 
+My new story
+
+:: StoryInit
+/* Used for pre-story-start initialization tasks, like variable initialization (happens at the beginning of story initialization). */
+
+
+:: StoryMenu

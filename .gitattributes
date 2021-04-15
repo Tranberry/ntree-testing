@@ -1,0 +1,7 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Declare files that will always have CRLF line endings on checkout.
+# NOTE: look at line endings especially if you are not on windows machine.
+*.tw text eol=crlf
+*.twee text eol =crlf
